@@ -1,6 +1,7 @@
 ## example-update-ddb-add-attribute-with-sfn
 
-This repository provides a simple example of using AWS Step Functions to scan a DynamoDB table and add an attribute to all items without the need for custom code in Lambda or containers. This approach is particularly useful when defining a TTL attribute for previously created items.
+This repository provides a straightforward example of using AWS Step Functions to scan a DynamoDB table and add an attribute to all items, eliminating the need for custom Lambda functions or containerized code. This method is especially useful on cases when you want add TTL attribute to existing items in the table.
+
 
 
 ![alt text](./assets/workflow.png)
